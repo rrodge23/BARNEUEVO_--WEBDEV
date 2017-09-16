@@ -19,7 +19,7 @@
 		}
 
 		public function divide($x,$y){
-			$this->quotient = $x-$y;
+			$this->quotient = $x/$y;
 			return $this->quotient;
 		}
 
@@ -29,7 +29,7 @@
 		}
 
 		public function multiply($x,$y){
-			$this->product = $x-$y;
+			$this->product = $x*$y;
 			echo $this->product;
 		}
 	}
