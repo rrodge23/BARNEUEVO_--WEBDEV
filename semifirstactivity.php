@@ -30,7 +30,7 @@
 
 		public function multiply($x,$y){
 			$this->product = $x*$y;
-			echo $this->product;
+			return $this->product;
 		}
 	}
 
